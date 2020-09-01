@@ -30,6 +30,7 @@ function Banner() {
 				<Button onClick={() => history.push("/search")} variant="outlined">
 					Explore Nearby
 				</Button>
+
 			</div>
 		</div>
 	);
