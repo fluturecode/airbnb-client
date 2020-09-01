@@ -4,7 +4,7 @@ import "./Footer.css";
 function Footer() {
 	return (
 		<div className="footer">
-			<p>© 2020 FlutureCode - "AirBnb Clone"</p>
+			<p>© 2020 FlutureCode - Airbnb Clone </p>
 			<p>Privacy · Terms · Sitemap · Company Details</p>
 		</div>
 	);
