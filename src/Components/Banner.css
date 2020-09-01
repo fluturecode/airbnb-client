@@ -8,11 +8,12 @@
 .banner__info {
 	background-color: black;
 	color: white;
-	padding-top: 25vh;
+	padding-top: 16vh;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	width: 300px;
+	border-radius: 10px;
 }
 
 .banner__search {
