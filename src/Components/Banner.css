@@ -35,11 +35,11 @@
 	font-weight: 600;
 }
 
-.banner__info > h5 {
-	margin-top: 10px;
-}
-
 .banner__info > button:hover {
 	background-color: white;
 	color: #ff7779;
+}
+
+.banner__info > h5 {
+	margin-top: 10px;
 }
