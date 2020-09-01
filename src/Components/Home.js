@@ -43,7 +43,6 @@ function Home() {
 					description="Superhost with great amenities and a fabolous shopping complex nearby"
 					price="£70/night"
 				/>
-			</div>
 		</div>
 	);
 }
