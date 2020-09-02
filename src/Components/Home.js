@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
-import Chatbot from "./Chatbot";
+import CustomChatbot from "./Chatbot";
 
 function Home() {
 	return (
@@ -45,7 +45,7 @@ function Home() {
 					price="£70/night"
 				/>
 			</div>
-			<Chatbot />
+			<CustomChatbot />
 		</div>
 	);
 }
