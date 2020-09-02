@@ -1,7 +1,7 @@
 import React from "react";
 import "./SearchPage.css";
 import { Button } from "@material-ui/core";
-import SearchResult from "./SearchResult"
+import SearchResult from "./SearchResult";
 
 function SearchPage() {
 	return (
@@ -21,8 +21,8 @@ function SearchPage() {
 				title="Stay at this spacious Edwardian House"
 				description="1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine"
 				star={4.73}
-				price="£30 / night"
-				total="£117 total"
+				price="$30 / night"
+				total="$117 total"
 			/>
 		</div>
 	);
