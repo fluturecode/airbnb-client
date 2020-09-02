@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
+import Chatbot from "./Chatbot";
 
 function Home() {
 	return (
@@ -43,6 +44,8 @@ function Home() {
 					description="Superhost with great amenities and a fabolous shopping complex nearby"
 					price="£70/night"
 				/>
+			</div>
+			<Chatbot />
 		</div>
 	);
 }
