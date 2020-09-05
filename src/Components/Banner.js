@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useHistory } from "react";
 import "./Banner.css";
 import { Button } from "@material-ui/core";
 import Search from "./Search";
-import { useHistory } from "react-router-dom";
 
 function Banner() {
 	const history = useHistory();
@@ -30,7 +29,6 @@ function Banner() {
 				<Button onClick={() => history.push("/search")} variant="outlined">
 					Explore Nearby
 				</Button>
-
 			</div>
 		</div>
 	);
