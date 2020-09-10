@@ -9,6 +9,8 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "date-fns": "^2.16.1",
+    "firebase-tools": "^8.10.0",
+    "global": "^4.4.0",
     "react": "^16.13.1",
     "react-date-range": "github:arthot/react-date-range#next-fns-1",
     "react-dom": "^16.13.1",

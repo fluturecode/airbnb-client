@@ -15,7 +15,7 @@ function CustomChatbot(props) {
 			// Identifies the current step
 			id: "Greet",
 			// Displays the message in window, once the step is called
-			message: "Hello, I'm Liz! What's your name?",
+			message: "Hello, my name is Sam what is your name?",
 			// The id of the next step
 			trigger: "Waiting user input for name",
 		},
@@ -31,18 +31,18 @@ function CustomChatbot(props) {
 		},
 		{
 			id: "Look Around",
-			message: "Glad you found my site. Doesn't it look nice?",
-			trigger: "User response looks nice",
+			message: "Glad you found our site. Are you looking for a place to stay?",
+			trigger: "Place to stay",
 		},
 		{
-			id: "User response looks nice",
+			id: "Place to stay",
 			user: true,
 			trigger: "done",
 		},
 		{
 			id: "done",
 			message:
-				"Thanks! Well enjoy the site and be on the look out for my next build.... ",
+				"Great! Well you're in the right place...go ahead and select your dates to search available listings, and let me know if you have any questions.",
 			end: true,
 		},
 	];
