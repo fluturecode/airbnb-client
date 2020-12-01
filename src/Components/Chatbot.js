@@ -3,7 +3,6 @@ import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
 
 function CustomChatbot(props) {
-	// Make the chatbot resizeable or collapsible
 	const config = {
 		width: "300px",
 		height: "400px",
