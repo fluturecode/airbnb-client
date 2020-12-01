@@ -1,6 +1,6 @@
 # AirBnb React Clone
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![Screen Shot 2020-09-05 at 6 06 43 PM](https://user-images.githubusercontent.com/59614789/92314188-9d3d4480-efa2-11ea-894c-09db858ee82c.png)
+![Screen Shot 2020-12-01 at 1 53 17 PM](https://user-images.githubusercontent.com/59614789/100784056-988aff80-33dc-11eb-8b59-50df5397f9bb.png)
 
 ### React Router
 
