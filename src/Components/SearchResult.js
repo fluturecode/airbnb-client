@@ -1,7 +1,8 @@
-import React from "react";
-import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
+import React from "react";
+import { Map } from './Map';
+import "./SearchResult.css";
 
 // Destructure props
 function SearchResult({
@@ -36,6 +37,9 @@ function SearchResult({
 						<p>{total}</p>
 					</div>
 				</div>
+			</div>
+			<div className=''>
+			<Map/>
 			</div>
 		</div>
 	);
