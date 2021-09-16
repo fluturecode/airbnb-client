@@ -38,8 +38,8 @@ function SearchResult({
 					</div>
 				</div>
 			</div>
-			<div className=''>
-			<Map/>
+			<div className='hidden xl:inline-flex xl:min-w-[600px]'>
+				<Map/>
 			</div>
 		</div>
 	);
