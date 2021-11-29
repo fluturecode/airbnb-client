@@ -6,21 +6,19 @@ import Footer from "./Components/Footer";
 import SearchPage from "./Components/SearchPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
-function App() {
+export const App = () => {
 	return (
-			<Router>
-				<Header />
-				<Switch>
-					<Route path="/search">
-						<SearchPage />
-					</Route>
-					<Route path="/">
-						<Home />
-					</Route>
-				</Switch>
-				<Footer />
-			</Router>
+		<Router>
+			<Header />
+			<Switch>
+				<Route path="/search">
+					<SearchPage />
+				</Route>
+				<Route path="/">
+					<Home />
+				</Route>
+			</Switch>
+			<Footer />
+		</Router>
 	);
 }
-
-export default App;
