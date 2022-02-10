@@ -2,15 +2,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ![Screen Shot 2020-12-01 at 1 53 17 PM](https://user-images.githubusercontent.com/59614789/100784056-988aff80-33dc-11eb-8b59-50df5397f9bb.png)
 
-### React Router
+## React Router
 
-### Material-UI
+## Material-UI
 
-### React Data Picker
+## React Data Picker
 
-### React Chatbot & Style Components
+## React Chatbot & Style Components
 
-### Firebase Hosting & Deploy
+## Firebase Hosting & Deploy
 
 ### Available Scripts
 
